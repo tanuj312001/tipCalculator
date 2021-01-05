@@ -1,0 +1,67 @@
+*{
+   background-color: rebeccapurple;
+
+    font-family: cursive;
+    color: white;
+}
+
+ h1{
+     color:yellow;
+     font-family: cursive;
+     padding-top: 20px;
+     animation-name: move;
+     animation-duration:8s;
+     animation-iteration-count: infinite;
+     position: relative;
+ }
+ 
+ @keyframes move{
+     0%{
+         left:0%
+     }
+     50%{
+         left: 50%;
+     }
+     100%{
+         left: 0%;
+     }
+ }
+.card{
+    margin: auto;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  left: 30%;
+
+
+}
+.card-title{
+    color:white;
+    
+}
+#button{
+    text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #AD133A;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+#button:hover{
+    background-color: green;
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+img{
+    float: right;
+    box-sizing: border-box;
+    width: 30%;
+}

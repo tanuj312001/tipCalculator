@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+<div class="wholeDiv">
+
+<h1> BONJOUR</h1>
+<br>
+<br>
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h3 class="card-title">TIP CALCULATOR</h3>
+      <form>
+        <p>How much was your bill?
+     
+               <input id="billamt" type="text" placeholder="Bill Amount">
+       <p> How did you like your service</p>
+              <select id="service">
+                <option disabled selected value="0">-- Choose an Option --</option>
+                <option value="0.3"> Outstanding 30%</option>
+                <option value="0.2">Good 20%</option>
+                <option value="0.15">OK 15%</option>
+                <option value="0.1">Bad 10%</option>
+                <option value='0.05'>Terrible 5%</option>
+              </select>
+        <p> How many people were there?</p>   
+        <input id="people" type="text" placeholder='No of people'>   
+      </form>
+      <p></p>
+      <button  id='button' type="submit" class="btn btn-primary"> Calculate tip</button>
+      <div id="tip"> 
+        <h2> Tip is </h2>
+        <h2 id="total">0.00</h2></h3>
+     <h4>each</h4> 
+      </div>
+
+
+    
+    </div>
+  </div>
+  <img src="/360_arat_0618.jpg">
+</body>
+<script src="tip.js"></script>
+</html>
